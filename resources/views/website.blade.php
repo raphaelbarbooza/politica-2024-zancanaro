@@ -297,7 +297,7 @@
                 </article>
             </div>
 
-            <div class="row mt-3 linha comunidade">
+            <div class="row mt-3 linha comunidade d-none">
                 <div class="col-lg-3 d-flex align-items-center">
                     <img src="{{asset('images/comunidade.png')}}"/>
                 </div>
