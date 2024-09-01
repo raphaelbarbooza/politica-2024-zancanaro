@@ -30,7 +30,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
-    <link href="{{asset('estilo.css')}}" type="text/css" rel="stylesheet" />
+    <link href="{{asset('estilo.css')}}" type="text/css" rel="stylesheet"/>
     <script src="https://kit.fontawesome.com/72c4a6b265.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -39,7 +39,8 @@
     <div id="home-01-desktop" style="background-image: url('{{asset('images/home-bg-01.png')}}');">
         <div class="row h-100">
             <div class="col-md-3 col-lg-4 h-100 d-none d-md-block">
-                <div class="detail-01 mt-3 ms-1 ms-lg-5 d-flex align-items-end" style="background-image: url('{{asset('images/home-detail-01.png')}}');">
+                <div class="detail-01 mt-3 ms-1 ms-lg-5 d-flex align-items-end"
+                     style="background-image: url('{{asset('images/home-detail-01.png')}}');">
                     <img class="w-auto zancanaro-01" src="{{asset('images/zancanaro-01.png')}}"/>
 
                     <div class="mdb-float d-none d-lg-block">
@@ -83,7 +84,7 @@
         <img class="edge-left d-none d-lg-block" src="{{asset('images/half-edge-02.png')}}"/>
         <img class="edge-right d-none d-lg-block" src="{{asset('images/half-edge-03.png')}}"/>
         <div class="row h-100">
-            <div class="col-lg-6 left">
+            <div class="col-lg-6 left order-2 order-lg-1">
                 <article class="p-3 p-md-5">
                     <h1>
                         TRANSPORTE, INFRAESTRUTURA E MOBILIDADE URBANA.
@@ -137,7 +138,7 @@
                     </div>
                 </article>
             </div>
-            <div class="col-lg-6 right">
+            <div class="col-lg-6 right order-1 order-lg-2">
                 <div class="row d-flex justify-content-end">
                     <article class="col-lg-10">
                         <div class="p-3 p-md-5 text-white">
@@ -194,32 +195,34 @@
                     <ul>
                         <li>
                             <b>VIDEOMONITORAMENTO COM INTELIGÊNCIA ARTIFICIAL</b>: Trabalhei pela implantação de mais de
-                            100
-                            câmeras espalhadas pela cidade. E o resultado? Redução de criminalidade, principalmentes os
-                            crimes de furto de veículos, comércio e porte ilegal de armas.
+                            100 câmeras espalhadas pela
+                            cidade. E o resultado? Redução da criminalidade, principalmente os crimes de roubo e furto
+                            de veículos, comércio e pessoas.
                         </li>
                         <li>
-                            <b>ATIVIDADE DELEGADA</b>: Fizemos uma parceria com o Estado, disponibilizando viaturas e
-                            apoio
-                            para a segurança municipal em troca de uma verba extra do servidor. Assim, somos referência
-                            em repressão e prevenção primária de crimes e proteção da nossa população.
+                            <b>ATIVIDADE DELEGADA</b>: Fizemos uma parceria com o Estado que disponibiliza viaturas e
+                            equipamentos, e o município paga a
+                            hora extra do servidor. Assim, conseguimos melhorar a resposta a emergências, prevenir
+                            crimes e proporcionar maior segurança para todos.
                         </li>
                         <li>
-                            <b>REFORMA DO BATALHÃO DA POLÍCIA MILITAR</b>: Realizamos a reforma completa do Batalhão da
+                            <b>REFORMA DO BATALHÃO DA POLÍCIA MILITAR</b>: Realizamos a reforma completa do Batalhao da
                             Polícia Militar.
                         </li>
                         <li>
-                            <b>APOIO AO CORPO DE BOMBEIROS E SAMU</b>: Conquistamos a autonomia e sede própria para o
-                            Corpo de Bombeiros e SAMU, para que possam atender nossa população com mais eficiência.
+                            <b>NOVA SEDE DO CORPO DE BOMBEIROS E SAMU</b>: Conquistamos a construção da nova sede para o
+                            Corpo de Bombeiros e o SAMU.
                         </li>
                         <li>
-                            <b>NOVA SEDE DA POLÍCIA RODOVIÁRIA FEDERAL</b>: Buscamos e conquistamos uma nova sede para a
+                            <b>NOVA SEDE DA POLÍCIA RODOVIÁRIA FEDERAL</b>: Buscamos a construção de uma nova sede para
+                            a
                             Polícia Rodoviária Federal
                         </li>
                         <li>
-                            <b>NOVA SEDE PARA A POLÍCIA JUDICIÁRIA CIVIL</b>: Viabilizamos as tratativas para a sede da
-                            Polícia Judiciária Civil, retirando a sobrecarga da antiga delegacia e otimizando o
-                            atendimento.
+                            <b>NOVA SEDE PARA A POLÍCIA JUDICIÁRIA CIVIL</b>: Viabilizamos as tratativas para a reforma
+                            da sede da
+                            Polícia Judiciária Civil, reforçando a capacidade de investigação e solução de crimes,
+                            promovendo mais justiça e segurança para a população.
                         </li>
                     </ul>
                 </article>
@@ -234,26 +237,24 @@
                     <ul>
                         <li>
                             <b>SOU AUTOR DA LEI QUE PROÍBE VEREADORES E SEUS FAMILIARES DE PARTICIPAREM DE LICITAÇÕES E
-                                CONTRATAÇÕES DA PREFEITURA</b>: Lei anticorrupção que proíbe que vereadores, seus
-                            familiares e empresas de propriedade destes se beneficiem de contratos firmados com a
-                            Prefeitura. Assim, acabamos com o "toma lá dá cá" que sempre beneficiou alguns em detrimento
-                            do povo. Esta lei já fez com que empresários tradicionais da cidade deixassem de participar
-                            de licitações ou tivessem contratos cancelados.
+                                CONTRATAÇÕES DA PREFEITURA</b>: Essa legislacão tem como objetivo garantir maior
+                            impessoalidade, transparência e moralidade nos contratos públicos, prevenindo conflitos de
+                            interesse e assegurando que os
+                            recursos públicos sejam utilizados de forma justa e ética. Com essa lei, buscamos fortalecer
+                            a confiança da população na administração pública.
                         </li>
                         <li>
-                            <b>LEI DE ISENÇÃO PARA PROFISSIONAIS LIBERAIS</b>: Fui autor da lei que concede isenção de
-                            taxas e
-                            impostos para profissionais liberais ao seu primeiro ano de atividade. Antes da isenção,
-                            advogados, dentistas, engenheiros, arquitetos e demais profissionais liberais precisavam
-                            pagar impostos mesmo sem terem clientes ou comércios abertos. Hoje, esses profissionais têm
-                            uma chance real de iniciar suas atividades sem ficarem endividados. Esta lei também ajudou a
-                            reduzir a informalidade e a burocracia, melhorando a vida dos novos empresários.
+                            <b>LEI DE ISENÇÃO PARA PROFISSIONAIS LIBERAIS</b>: Fui autor da lei que concede a isenção de taxas e impostos para
+                            profissionais liberais no seu primeiro ano de atividade. Antes mesmo de atender o primeiro cliente, esses profissionais tinham
+                            que desembolsar cerca de cinco mil reais em taxas e impostos. Atualmente, ele contam com isenção no primeiro ano
+                            recebendo um benefício para iniciar sua atividade. Assim, estimulamos a abertura de novos negócios, promovemos o
+                            empreendedorismo e apoiamos o desenvolvimento econômico, além de ajudar aqueles que estão começando sua vida
+                            profisional.
                         </li>
                         <li>
-                            <b>PROJETO INTEGRAÇÃO PARLAMENTO</b>: Buscando incentivar a participação da sociedade nas
-                            atividades da câmara, implantei este projeto, com o objetivo de trazer jovens, estudantes e
-                            entidades para participar das sessões legislativas e acompanhar, em tempo real, as
-                            discussões sobre o processo legislativo e as atribuições da câmara e de seus vereadores.
+                            <b>PROJETO INTEGRAÇÃO PARLAMENTO</b>: Buscando incentivar a participação da sociedade, em especial do jovem, nos
+                            assuntos de interesse da cidade, implantamos o projeto integração parlamento, levando alunos e academicos para uma aula
+                            prática sobre o processo legislação e as atribuicões da câmara e dos vereadores.
                         </li>
                     </ul>
                 </article>
@@ -267,37 +268,39 @@
                     <h2>Educação</h2>
                     <ul>
                         <li>
-                            <b>IMPLANTAÇÃO DA ESCOLA MILITAR</b>: Apoiamos a implantação da Escola Militar, pois
-                            entendemos neste modelo para formação completa e disciplinada de nossos jovens.
+                            <b>IMPLANTAÇÃO DA ESCOLA MILITAR</b>: Apoiamos a implantação da Escola Militar pois acreditamos neste modelo para formação
+                            completa e disciplinada de nossos jovens.
                         </li>
                         <li>
-                            <b>AMPLIAÇÃO DA ESCOLA NA VILA UNIÃO E CONSTRUÇÃO DA QUADRA</b>: Conquistamos a reforma da
-                            escola e construção de uma quadra coberta para atender a comunidade escolar.
+                            <b>AMPLIAÇÃO DA ESCOLA NA VILA UNIÃO E CONSTRUÇÃO DA QUADRA</b>
                         </li>
                         <li>
-                            <b>RECONHECIMENTO DOS PROFESSORES DO CONCURSO DE 1999</b>: Ajudamos na luta para corrigir
-                            uma
-                            injustiça histórica com os professores aprovados no concurso de 1999 e que não estavam sendo
-                            reconhecidos como efetivos.
+                            <b>RECONHECIMENTO DOS PROFESSORES DO CONCURSO DE 1999</b>: Ajudamos na luta para corrigir uma injustiça de
+                            mais de 20 anos provocada por alterações na legislacão federal.
                         </li>
                         <li>
-                            <b>PROFESSORES APOSENTADOS DA REDE PÚBLICA MUNICIPAL</b>: Busquei assegurar seus direitos e
-                            condições de recebimento de proventos para mais de 100 professores.
+                            <b>PROFESSORES APOSENTADOS DA REDE PÚBLICA MUNICIPAL</b>: Busquei assegurar seus direitos e condições
+                            justas após anos de dedicação ao ensino.
                         </li>
                         <li>
                             <b>PLANO DE CARGOS E CARREIRAS E SALÁRIOS DOS PROFESSORES</b>: Defendendo junto ao executivo
                             o reconhecimento de suas lutas e a atualização dos seus salários.
                         </li>
                         <li>
-                            <b>DATA BASE RGA</b>: Tive a honra de acompanhar de perto e lutar junto aos professores pela
-                            aprovação da RGA. Assumimos o compromisso de defender o reajuste salarial dos profissionais
-                            da educação que hoje está congelado há quase 10 anos.
+                            <b>DATA BASE RGA</b>: Fui o autor da indicação (23/02/2022) que propôs a alteração da data-base do pagamento do RGA
+                            (Reajuste Geral Anual), assegurando que os servidores públicos recebam seus reajustes que compensem as perdas salariais
+                            resultantes da inflação.
+                        </li>
+                        <li>
+                            <b>CONSTRUÇÃO DE QUADRAS COBERTAS NAS ESCOLAS</b>: Estive na Secretaria Estadual de Educação em Cuiabá, onde conseguimos a
+                            construção de quadras cobertas nas escolas Alda Scopel, Paulo Freire, Getúlio Vargas e Padre Onesto Costa. Essas melhorias proporcionam
+                            aos alunos, espaços adequados para atividades físicas e esportivas, garantindo um ambiente escolar mais completo e inclusivo.
                         </li>
                     </ul>
                 </article>
             </div>
 
-            <div class="row mt-3 linha comunidade d-none">
+            <div class="row mt-3 linha comunidade">
                 <div class="col-lg-3 d-flex align-items-center">
                     <img src="{{asset('images/comunidade.png')}}"/>
                 </div>
@@ -305,40 +308,37 @@
                     <h2>Comunidade</h2>
                     <ul>
                         <li>
-                            <b>HOMOLOGAÇÃO DO AEROPORTO MUNICIPAL</b>: Em 03/03/2022, após um acidente sem paciência de
-                            atendimento pela UTI aérea da Unimed, por problemas em nossa pista, busquei junto a ANAC e
-                            ao Deparamento de Segurança de Voo a regularização, homologação e reabertura do nosso
-                            aeroporto para voos e resgate de UTI aérea. Desde o dia 03/03/2022, estamos homologados pela
-                            ANAC.
+                            <b>HOMOLOGAÇÃO DO AEROPORTO MUNICIPAL</b>: Em 03/03/2022, após um paciente não conseguir
+                            atendimento
+                            pela UTI aèrea da Unimed, por falta de operação noturna, fiz o pedido de ampliação e
+                            homologação
+                            do aeroporto municipal. Viajei a Brasília e trouxe uma emenda no valor de R$ 1 milhão,
+                            concedida pelo senador
+                            Jayme Campos e assim conseguimos a homologação junto à ANAC.
                         </li>
                         <li>
-                            <b>TRABALHADORES COM VAGAS GARANTIDAS</b>: Nosso mandato tem trabalhado por você,
-                            trabalhador.
-                            Levantamos todas as vagas de emprego de nossa cidade e da região para atender nossos
-                            trabalhadores. As vagas foram encaminhadas para a secretaria de assistência social e
-                            preenchidas com êxito.
+                            <b>CONSTRULÇÃO CIVIL</b>: Trabalhei para a ampliação do Departamento de Engenharia, visando
+                            uma
+                            aprovação mais ágil dos projetos de construção civil. Com isso houve a redução do tempo de
+                            espera, impulsionando o crescimento da nossa cidade.
                         </li>
                         <li>
-                            <b>CONSTRUÇÃO DO HOSPITAL</b>: Trabalhei para abrir uma porta de entrada para a construção
-                            do
-                            hospital municipal e regional. Viabilizamos todos os estudos e levantamentos necessários. A
-                            construção será realizada junto ao governo do estado. Nossa meta é que até 2024 nossa cidade
-                            esteja com sua obra em fase de acabamento e entregue à população.
+                            <b>TRABALHADORES DOS TRANSPORTES E CAMINHONEIROS</b>: Em 23/06/2021 Indiquei a criação de um
+                            ponto de apoio
+                            para caminhoneiros, proporcionando um espaço dedicado para descanso e suporte. Meu
+                            compromisso é com a valorização
+                            e o reconhecimento desses trabalhadores essenciais para a nossa economia.
                         </li>
                         <li>
-                            <b>TRADIÇÃO E APOIO AO NORDESTE</b>: Nossa cidade é berço de cultura nordestina, e como tal,
-                            não
-                            medimos esforços para preservar e fortalecer nossa cultura, principalmente com o suporte ao
-                            Bumba Meu Boi, Siriri, Catira, Cavalhada e à tradição Gaúcha.
+                            <b>CTG</b>: Junto a Secretaria Municipal de Cultura, viabilizamos emenda concedida pelo
+                            deputado estadual "Beto 2 a 1" para
+                            a realização da Etapa Inter Regional do Festival Mato-grossense de Arte e Tradição Gaúcha.
                         </li>
                         <li>
-                            <b>PLANO DE CARGOS E CARREIRAS E SALÁRIOS DOS PROFESSORES</b>: Defendendo junto ao executivo
-                            o reconhecimento de suas lutas e a atualização dos seus salários.
-                        </li>
-                        <li>
-                            <b>COMÉRCIO LOCAL</b>: Trabalhamos para valorizar e fortalecer o comércio local. O pequeno
-                            empresário é quem fomenta a economia de nossa cidade. Nosso objetivo é qualificar o
-                            trabalhador, promover o lazer e o esporte, e fomentar o empreendedorismo.
+                            <b>Associação Norte Nordeste</b>: Nossa mão de obra é do norte e nordeste. Por isso atuamos
+                            na fundação e organizalção da Associação.
+                            Nosso objetivo é qualificar o trabalhador, promover o lazer, o esporte e facilitar o
+                            empreendedorismo.
                         </li>
                     </ul>
                 </article>
